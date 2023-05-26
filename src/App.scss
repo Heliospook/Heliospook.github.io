@@ -1,0 +1,36 @@
+.App{
+    color : white;
+    background-color: black;
+    min-height: 100vh;
+    padding-top: 5vh;
+    .links{
+        position : fixed;
+        left : 0;
+        top : 0;
+        height: 100vh;
+        padding : 20px;
+        background-color: white;
+        .letter{
+            font-size: xx-large;
+            font-weight: bold;
+            margin : 10px 0px;
+            color : black;
+        }
+    }
+    .mail{
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        cursor: pointer;
+        .mailimg{
+            height: 90px;
+            width: auto;
+            margin-bottom: 0;
+        }
+        .mailtext{
+            margin-top : -15px;
+            padding-top: 0;
+            font-family: 'Poppins';
+        }
+    }
+}

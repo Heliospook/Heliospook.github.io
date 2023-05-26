@@ -1,0 +1,26 @@
+.InfoCard{
+    background-color: white;
+    color : black;
+    height: fit-content;
+    width: 250px;
+    border-radius: 15px;
+    padding : 20px;
+    cursor: pointer;
+    margin : 15px;
+    font-family: 'Poppins';
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .iconimg{
+            height: 150px;
+            width: auto;
+        }
+    }
+    .title{
+        font-family: 'Poppins';
+        margin: 10px;
+        font-size: large;
+        font-weight: 600;
+    }
+}
